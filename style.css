@@ -11,10 +11,13 @@ html {
 }
 
 header {
-  padding: 5rem;
+  height: 10%;
+  padding: 40px;
   text-align: center;
   border: 5px solid blue;
 }
 
 #container {
+  height: 90%;
+  border: 5px solid blue;
 }
