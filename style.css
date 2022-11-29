@@ -5,13 +5,16 @@ html {
   padding: 0;
 }
 
-#container {
+#app {
   width: 100vw;
   height: 100vh;
-  text-align: center;
 }
 
-#container h1 {
+header {
   padding: 5rem;
+  text-align: center;
   border: 5px solid blue;
+}
+
+#container {
 }
