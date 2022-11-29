@@ -6,5 +6,6 @@
 
 ### Resources
 
+**[discover threejs.com](https://github.com/mrdoob/three.js/)** _book/tutorial_<br>
 **[mr.doob/threejs](https://github.com/mrdoob/three.js/)** _repository_<br>
 **[threejs.org](https://threejs.org/docs/#manual/en/introduction/Installation)** _documentation_
