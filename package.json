@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/ch2isk4kos/three-js-test-drive/issues"
   },
-  "homepage": "https://github.com/ch2isk4kos/three-js-test-drive#readme"
+  "homepage": "https://github.com/ch2isk4kos/three-js-test-drive#readme",
+  "type": "module"
 }
