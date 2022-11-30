@@ -12,6 +12,7 @@ const camera = new THREE.PerspectiveCamera(
 // a Scene is the container of the virtual world
 const scene = new THREE.Scene();
 
+// Scene Lighting
 const sceneLight = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(sceneLight);
 
@@ -24,7 +25,8 @@ const geometry = new THREE.BoxGeometry(100, 100, 100);
 // const material = new THREE.MeshBasicMaterial({ color: 0xffff00 });
 const material = new THREE.MeshLambertMaterial({ color: 0xffffff });
 const mesh = new THREE.Mesh(geometry, material);
-mesh.position.set(0, 0, -1000);
+// mesh.position.set(0, 0, -1000);
+mesh.position.z = -1000;
 scene.add(mesh);
 
 // a Renderer displays the virtual world in the browser
@@ -33,13 +35,14 @@ const renderer = new THREE.WebGLRenderer({
   antialias: true,
 });
 
-renderer.setClearColor(0x00ff00);
+renderer.setClearColor(0x00000);
+// renderer.setClearColor(0x00ff00);
 // renderer.setPixelRatio(window.devicePixelRatio);
 // renderer.setSize(window.innerWidth, window.innerHeight);
 
 const render = () => {
-  mesh.rotation.x += 0.1;
-  mesh.rotation.y += 0.1;
+  mesh.rotation.x += 0.01;
+  mesh.rotation.y += 0.01;
   renderer.render(scene, camera);
   requestAnimationFrame(render);
 };
