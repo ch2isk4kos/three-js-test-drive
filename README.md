@@ -7,6 +7,6 @@
 ### Resources
 
 **[discover threejs.com](https://github.com/mrdoob/three.js/)** _book/tutorial_<br>
-**[diving in: three.js](https://www.youtube.com/watch?v=ABV1mK1CGOY&list=PL08jItIqOb2qyMOhtEUoLh100KpccQiRf&index=1)** _youtube tutorial_<br>
+**[diving in: three.js](https://www.youtube.com/watch?v=ABV1mK1CGOY&list=PL08jItIqOb2qyMOhtEUoLh100KpccQiRf&index=1)** _youtube_<br>
 **[mr.doob/threejs](https://github.com/mrdoob/three.js/)** _repository_<br>
 **[threejs.org](https://threejs.org/docs/#manual/en/introduction/Installation)** _documentation_
