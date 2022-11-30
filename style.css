@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #app {
@@ -20,6 +20,7 @@ header {
 
 #container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 90%;
@@ -31,3 +32,15 @@ header {
   height: 50%;
   border: 5px solid red;
 }
+
+/* #renderer-2 {
+  width: 50%;
+  height: 50%;
+  border: 5px solid red;
+} */
+
+/* #renderer-3 {
+  width: 50%;
+  height: 50%;
+  border: 5px solid red;
+} */
